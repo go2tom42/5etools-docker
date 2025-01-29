@@ -8,7 +8,7 @@ You can quick-start this image by running:
 
 ```
 mkdir -p ~/5etools-docker/htdocs && cd ~/5etools-docker
-curl -o docker-compose.yml https://raw.githubusercontent.com/Jafner/5etools-docker/main/docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/go2tom42/5etools-docker/main/docker-compose.yml
 docker-compose up -d && docker logs -f 5etools-docker
 ```
 
